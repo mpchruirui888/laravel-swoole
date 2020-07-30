@@ -10,6 +10,6 @@ class Factory
     public static function createRedis()
     {
         $redis = new Redis();
-        return $redis::connection('default');
+        return $redis::connection('myCluster');
     }
 }

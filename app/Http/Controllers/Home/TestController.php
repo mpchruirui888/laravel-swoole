@@ -21,11 +21,9 @@ class TestController extends Controller
     public function index()
     {
 
-        $this->redis->set('name','大王叫我来巡山！');
-        dd($this->redis->get('name'));
-//        $res = \DB::table('goods')->find('1');
-//        dd($res);
-//        return json_encode(['code'=>200,'data'=>['name'=>'Tdong','sex'=>1],'msg'=>'success']);
+        echo phpinfo();
+//        $this->redis->set('demo',json_encode(['id'=>1,'name'=>'小子']));
+//        dd($this->redis->get('demo'));
     }
 
 
