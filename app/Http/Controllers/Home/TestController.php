@@ -22,6 +22,7 @@ class TestController extends Controller
     {
 
         echo phpinfo();
+        die;
 //        $this->redis->set('demo',json_encode(['id'=>1,'name'=>'小子']));
 //        dd($this->redis->get('demo'));
     }
